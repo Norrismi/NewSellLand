@@ -1,6 +1,6 @@
 "use client";
-
 import React, { useState } from 'react';
+
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,5 +39,7 @@ const Navigation = () => {
     </nav>
   );
 };
+
+
 
 export default Navigation;

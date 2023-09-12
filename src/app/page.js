@@ -1,16 +1,16 @@
-import ContactForm from "./components/ContactForm"
-import ContactHeader from "./components/ContactHeader"
-import Navigation from "./components/Navigation"
+import ContactForm from "../../components/ContactForm"
+import ContactHeader from "../../components/ContactHeader"
+import Navigation from "../../components/Navigation"
 
 
 export default function Home() {
   return (
-    <main className="">
+    <div>
      
       <Navigation/>
       <ContactHeader/>
-      <div>test</div>
 
-    </main>
+
+    </div>
   )
 }
